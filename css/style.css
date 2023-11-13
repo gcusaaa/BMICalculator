@@ -7,15 +7,16 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body {
+    background-color: black;
     display: flex;
     justify-content: center;
 }
 p {
     padding: 5px;
-
     /* justify-content: center; */
 }
 .container {
+    margin-top: 15%;
     border: 1px solid red;
     border-radius: 10px;
     color: black;
