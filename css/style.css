@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+p {
+    padding: 5px;
+
+    /* justify-content: center; */
+}
+.container {
+    border: 1px solid red;
+    border-radius: 10px;
+    color: black;
+    background-color: gray;
+    padding: 20px;
+}
+.inputContainer {
+    /* background-color: transparent; */
+    /* box-shadow: darkred; */
+}
+#weight {
+    color: white;
+    background-color: darkred;
+    padding: 3px;
+    border: 1px solid red;
+    margin: 2px;
+}
+
+#height {
+    color: white;
+    background-color: darkred;
+    padding: 3px;
+    border: 1px solid red;
+    margin: 2px;
+}
+#calculateBtn {
+    color: darkred;
+    background-color: gray;
+    padding: 5px;
+    border: 1px solid darkred;
+    margin: 2px;
+}
+#placeHolder {
+    background-color: transparent;
+    border: 2px dotted;
+    box-shadow: darkred;
+}
